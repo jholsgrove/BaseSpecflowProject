@@ -38,3 +38,5 @@ Thumbs.db
 /_ReSharper.BaseSolution
 /packages
 /BaseSolution/*.Cache
+/BaseSolution/obj
+/BaseSolution/bin
