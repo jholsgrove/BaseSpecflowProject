@@ -24,7 +24,7 @@
 
         public static void Initialise()
         {
-            Initialise(BrowserType.Firefox);
+            Initialise(BrowserType.Chrome);
         }
 
         public static void WindowSetup()
@@ -67,7 +67,7 @@
             profile.SetPreference("network.proxy.type", 4);
             // profile.SetPreference("network.proxy.http", "192.168.34.82");
             // profile.SetPreference("network.proxy.http_port", "3182");
-            Driver = new FirefoxDriver(profile);
+            Driver = new FirefoxDriver();
 
         }
 
