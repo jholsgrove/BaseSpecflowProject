@@ -1,14 +1,9 @@
 ﻿namespace BaseSolution.Step_Definitions
 {
-    using System;
-
     using BaseSolution.Constants;
     using BaseSolution.Pages;
-
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+    using NUnit.Framework;
     using OpenQA.Selenium;
-
     using TechTalk.SpecFlow;
 
     [Binding]

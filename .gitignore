@@ -40,3 +40,4 @@ Thumbs.db
 /BaseSolution/*.Cache
 /BaseSolution/obj
 /BaseSolution/bin
+/.vs

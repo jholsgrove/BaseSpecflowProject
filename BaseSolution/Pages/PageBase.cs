@@ -1,19 +1,16 @@
 ﻿﻿using System;
 using System.Collections.Generic;
 ﻿using System.Collections.ObjectModel;
-﻿using System.Drawing;
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Interactions;
 using System.Linq;
 using OpenQA.Selenium.Support.UI;
-using System.Net;
-﻿using TechTalk.SpecFlow;
 
 namespace BaseSolution.Pages
 {
     using BaseSolution.Constants;
+    using NUnit.Framework;
+    using SeleniumExtras.WaitHelpers;
 
     //COMMON ACTIONS FOR WEBDRIVER
     /// <summary>
@@ -32,7 +29,6 @@ namespace BaseSolution.Pages
         public PageBase(PageContext context)
         {
             this.Context = context;
-            PageFactory.InitElements(this.Context.Driver, this);
         }
 
         public string GetCurrentUrl()
